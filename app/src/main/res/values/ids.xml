@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="stuId" type="id"></item>
+    <item name="name" type="id"></item>
+    <item name="dob" type="id"></item>
+    <item name="gender" type="id"></item>
+    <item name="bloodGrp" type="id"></item>
+    <item name="p1" type="id"></item>
+    <item name="p2" type="id"></item>
+    <item name="p3" type="id"></item>
+    <item name="p4" type="id"></item>
+    <item name="p5" type="id"></item>
+</resources>

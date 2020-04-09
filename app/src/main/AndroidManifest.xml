@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.institutedispensarymanagementsystem12">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name=".databasePrint"
+            android:label="@string/title_activity_database_print"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".patientdatabasePrint"
+            android:label="@string/title_activity_patientdatabase_print"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+
+        <activity
+            android:name=".updateMedicine"
+            android:label="@string/title_activity_update_medicine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".updatePatient"
+            android:label="activity_update_patient"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+        <activity
+            android:name=".deleteoldmedicine"
+            android:label="@string/title_activity_deleteoldmedicine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".deleteoldpatient"
+            android:label="deleteoldpatient"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+        <activity
+            android:name=".addnewmedicine"
+            android:label="@string/title_activity_addnewmedicine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addnewpatient"
+            android:label="@string/title_activity_addnewpatient"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+
+        <activity
+            android:name=".medicineoptions"
+            android:label="@string/title_activity_medicineoptions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".patientoptions"
+            android:label="patientoptions"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+        <activity
+            android:name=".select"
+            android:label="@string/title_activity_select"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
